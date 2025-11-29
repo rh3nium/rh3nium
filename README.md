@@ -19,3 +19,7 @@
 [![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![Transformers](https://img.shields.io/badge/Transformers-FFAE35?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/transformers/)
 [![LoRa](https://img.shields.io/badge/LoRa-00A3E0?style=for-the-badge)](https://www.semtech.com/lora)
+
+<hr>
+
+[Language repos](https://github.com/stars/rh3nium/lists/languages)
