@@ -1,19 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 400" width="240" height="400">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600" fill="none">
   <defs>
     <style>
-      .tri { transform-box: fill-box; transform-origin: center; animation: pulse 5s ease-in-out infinite; opacity: 0.9; }
-      @keyframes pulse {
+      .tri {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: float 6s ease-in-out infinite;
+        filter: drop-shadow(0 0 2px black); /* Shadow for contrast */
+      }
+      @keyframes float {
         0%, 100% { transform: translate(0, 0) rotate(var(--r)) scale(1); }
-        50% { transform: translate(var(--tx), var(--ty)) rotate(var(--r)) scale(1.1); }
+        50% { transform: translate(var(--tx), var(--ty)) rotate(var(--r)) scale(1.2); }
       }
     </style>
   </defs>
-  <path d="M5,0 L10,12 L0,12 Z" fill="red" class="tri" style="--r:15deg; --tx:10px; --ty:-10px;" transform="translate(100, 50) scale(1.5)"/>
-  <path d="M8,0 L16,20 L0,20 Z" fill="red" class="tri" style="--r:120deg; --tx:-15px; --ty:5px;" transform="translate(40, 150) scale(1.2)"/>
-  <path d="M6,0 L12,18 L0,18 Z" fill="red" class="tri" style="--r:45deg; --tx:8px; --ty:8px;" transform="translate(180, 80) scale(1.8)"/>
-  <path d="M10,0 L20,25 L0,25 Z" fill="red" class="tri" style="--r:200deg; --tx:-10px; --ty:-20px;" transform="translate(150, 250) scale(1.0)"/>
-  <path d="M7,0 L14,15 L0,15 Z" fill="red" class="tri" style="--r:10deg; --tx:5px; --ty:15px;" transform="translate(60, 300) scale(1.4)"/>
-  <path d="M5,0 L10,12 L0,12 Z" fill="red" class="tri" style="--r:300deg; --tx:20px; --ty:-5px;" transform="translate(120, 180) scale(0.8)"/>
-  <path d="M9,0 L18,22 L0,22 Z" fill="red" class="tri" style="--r:80deg; --tx:-12px; --ty:12px;" transform="translate(200, 350) scale(1.3)"/>
-  <path d="M6,0 L12,14 L0,14 Z" fill="red" class="tri" style="--r:180deg; --tx:0px; --ty:20px;" transform="translate(20, 50) scale(1.6)"/>
+  
+  <path d="M20,0 L40,50 L0,50 Z" fill="#FF0000" class="tri" style="--r:15deg; --tx:20px; --ty:-30px;" transform="translate(50, 50)"/>
+  <path d="M15,0 L30,40 L0,40 Z" fill="#FF0000" class="tri" style="--r:120deg; --tx:-30px; --ty:20px;" transform="translate(200, 100)"/>
+  <path d="M25,0 L50,60 L0,60 Z" fill="#FF0000" class="tri" style="--r:45deg; --tx:15px; --ty:40px;" transform="translate(100, 200)"/>
+  <path d="M10,0 L20,30 L0,30 Z" fill="#FF0000" class="tri" style="--r:200deg; --tx:-40px; --ty:-20px;" transform="translate(250, 250)"/>
+  <path d="M20,0 L40,50 L0,50 Z" fill="#FF0000" class="tri" style="--r:10deg; --tx:10px; --ty:50px;" transform="translate(20, 350)"/>
+  <path d="M15,0 L30,40 L0,40 Z" fill="#FF0000" class="tri" style="--r:300deg; --tx:50px; --ty:-10px;" transform="translate(180, 400)"/>
+  <path d="M30,0 L60,70 L0,70 Z" fill="#FF0000" class="tri" style="--r:80deg; --tx:-20px; --ty:30px;" transform="translate(120, 500)"/>
+  <path d="M20,0 L40,50 L0,50 Z" fill="#FF0000" class="tri" style="--r:180deg; --tx:0px; --ty:40px;" transform="translate(240, 50)"/>
+  <path d="M12,0 L24,35 L0,35 Z" fill="#FF0000" class="tri" style="--r:90deg; --tx:-20px; --ty:-40px;" transform="translate(60, 150)"/>
+  <path d="M22,0 L44,55 L0,55 Z" fill="#FF0000" class="tri" style="--r:250deg; --tx:30px; --ty:30px;" transform="translate(220, 300)"/>
 </svg>
