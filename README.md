@@ -1,5 +1,3 @@
-<img width="350" height=auto alt="image" src="https://github.com/user-attachments/assets/dee3c9b9-1f9a-4e1c-a585-8ea4eee15457" />
-
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=0A3C6E)
 [![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
