@@ -1,4 +1,4 @@
-<img width="400" height=auto alt="image" src="https://github.com/user-attachments/assets/dee3c9b9-1f9a-4e1c-a585-8ea4eee15457" />
+<img width="300" height=auto alt="image" src="https://github.com/user-attachments/assets/dee3c9b9-1f9a-4e1c-a585-8ea4eee15457" />
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=0A3C6E)
